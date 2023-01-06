@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .grid_forsidemenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(billeder/baggrundpt2.svg);
+}
+
+.menuknapper {
+  margin: 15%;
+}
+
+.tema02knap {
+  margin-left: 9rem;
+}
+
+.tema03knap {
+  margin-left: 6rem;
+}
+
+.tema04kknap {
+  margin-left: 3rem;
+}
+
+.tema05knap {
+  margin-left: 1rem;
+}

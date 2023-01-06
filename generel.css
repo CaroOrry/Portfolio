@@ -1,0 +1,73 @@
+/* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
+* {
+  box-sizing: border-box;
+}
+
+/* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+  font-family: "brodtekst";
+  font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: "brodtekst";
+  src: url(fonte/Rokkitt/static/Rokkitt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "overskrift";
+  src: url(fonte/Rokkitt/static/Rokkitt-Bold.ttf);
+}
+
+p {
+  font-family: "brodtekst";
+  font-size: 1.5rem;
+  color: black;
+}
+
+h1 {
+  font-family: "overskrift";
+  font: size 1.5rem;
+  color: black;
+}
+
+h2 {
+  font-family: "brodtekst";
+  font: size 1.5rem;
+  color: black;
+}
+
+h3 {
+  font-family: "brodtekst";
+  font: size 1.5rem;
+  color: black;
+}
+
+li {
+  float: right;
+}

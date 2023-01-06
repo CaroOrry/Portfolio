@@ -1,0 +1,115 @@
+.emnesiteoverskrift1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.temabeskrivelse1 {
+  text-align: center;
+}
+
+.hejmedlort {
+  width: 100%;
+  float: center;
+}
+
+.designproces {
+  text-align: center;
+}
+
+.designbeskrivelse {
+  text-align: center;
+}
+
+.moodboardbillede {
+  width: 75%;
+  margin-left: 12rem;
+}
+
+.styletilebillede {
+  width: 75%;
+  margin-left: 12rem;
+}
+
+.mockupbillede {
+  width: 75%;
+  margin-left: 12rem;
+}
+
+.layoutdiagrambillede {
+  width: 75%;
+  margin-left: 12rem;
+}
+
+.knapper {
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: pink;
+  text-align: center;
+  margin: 4px 2px;
+  font-size: 1.5rem;
+  font-family: "overskrift";
+  display: inline-block;
+}
+
+@media (min-width: 600px) {
+  .img {
+    gap: 20px;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+    gap: 20px;
+  }
+  .moodboardtekst {
+    grid-row: 1;
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .moodboard {
+    grid-row: 1;
+    grid-column: 2;
+    width: 80%;
+  }
+
+  .styletiletekst {
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .styletile {
+    grid-row: 2;
+    grid-column: 2;
+    width: 80%;
+  }
+
+  .mockuptekst {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .mockup {
+    grid-row: 3;
+    grid-column: 2;
+    width: 80%;
+  }
+
+  .layoutdiagrammertekst {
+    grid-row: 4;
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .layoutdiagrammer {
+    grid-row: 4;
+    grid-column: 2;
+    width: 80%;
+  }
+}
