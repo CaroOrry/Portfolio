@@ -13,6 +13,7 @@ body {
 header {
   position: sticky;
   top: 0;
+  margin-top: 0%;
   padding: 1rem 2rem;
   box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
   display: flex;
@@ -34,6 +35,10 @@ nav ul {
   font-size: 1.5rem;
 }
 
+nav li {
+  color: red;
+}
+
 @font-face {
   font-family: "brodtekst";
   src: url(fonte/Rokkitt/static/Rokkitt-Regular.ttf);
@@ -44,8 +49,12 @@ nav ul {
   src: url(fonte/Rokkitt/static/Rokkitt-Bold.ttf);
 }
 
+@font-face {
+  font-family: "tynd";
+  src: url(fonte/Rokkitt/static/Rokkitt-Light.ttf);
+}
+
 p {
-  font-family: "brodtekst";
   font-size: 1.5rem;
   color: black;
 }

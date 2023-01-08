@@ -1,56 +1,102 @@
+.indholdindex {
+  background-color: white;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  background-color: black;
+}
+
 .emnesiteoverskrift1 {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .temabeskrivelse1 {
   text-align: center;
+  font-family: "tynd";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
-.hejmedlort {
-  width: 100%;
-  float: center;
+.baggrundsfarve {
+  border-style: double;
+  color: #102fde;
+  margin: 5%;
 }
 
 .designproces {
   text-align: center;
+  margin-top: 5%;
 }
 
 .designbeskrivelse {
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "tynd";
 }
 
 .moodboardbillede {
-  width: 75%;
-  margin-left: 12rem;
+  width: 65%;
+  float: right;
+  margin: 35px;
+}
+
+.moodboardtekst {
+  margin: 35px;
+  font-family: "brodtekst";
 }
 
 .styletilebillede {
-  width: 75%;
-  margin-left: 12rem;
+  width: 65%;
+  float: right;
+  margin: 35px;
+}
+
+.styletiletekst {
+  margin: 35px;
+  font-family: "brodtekst";
 }
 
 .mockupbillede {
-  width: 75%;
-  margin-left: 12rem;
+  width: 65%;
+  float: right;
+  margin: 35px;
+}
+
+.mockuptekst {
+  margin: 35px;
+  font-family: "brodtekst";
 }
 
 .layoutdiagrambillede {
-  width: 75%;
-  margin-left: 12rem;
+  width: 65%;
+  float: right;
+  margin: 35px;
+}
+
+.layoutdiagrammertekst {
+  margin: 35px;
+  font-family: "brodtekst";
 }
 
 .knapper {
-  margin: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
 }
 
 button {
-  background-color: pink;
+  background-color: #102fde;
+  color: white;
   text-align: center;
   margin: 4px 2px;
   font-size: 1.5rem;
-  font-family: "overskrift";
+  font-family: "brodtekst";
   display: inline-block;
 }
 
@@ -62,54 +108,46 @@ button {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10%;
+    margin: 5%;
     gap: 20px;
-  }
-  .moodboardtekst {
-    grid-row: 1;
-    grid-column: 1;
-    text-align: left;
+    border-style: solid;
+    border-color: #102fde;
+    border-width: thin;
   }
 
-  .moodboard {
-    grid-row: 1;
-    grid-column: 2;
-    width: 80%;
+  .grid_1-1pt2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    gap: 20px;
+    border-style: solid;
+    border-color: #102fde;
+    border-width: thin;
   }
 
-  .styletiletekst {
-    grid-row: 2;
-    grid-column: 1;
-    text-align: left;
+  .grid_1-1pt3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    gap: 20px;
+    border-style: solid;
+    border-color: #102fde;
+    border-width: thin;
   }
 
-  .styletile {
-    grid-row: 2;
-    grid-column: 2;
-    width: 80%;
-  }
-
-  .mockuptekst {
-    grid-row: 3;
-    grid-column: 1;
-    text-align: left;
-  }
-
-  .mockup {
-    grid-row: 3;
-    grid-column: 2;
-    width: 80%;
-  }
-
-  .layoutdiagrammertekst {
-    grid-row: 4;
-    grid-column: 1;
-    text-align: left;
-  }
-
-  .layoutdiagrammer {
-    grid-row: 4;
-    grid-column: 2;
-    width: 80%;
+  .grid_1-1pt4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    gap: 20px;
+    border-style: solid;
+    border-color: #102fde;
+    border-width: thin;
   }
 }

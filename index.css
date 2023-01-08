@@ -11,14 +11,14 @@
 @media (min-width: 600px) {
   .grid_forsidemenu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 body {
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url(billeder/baggrundpt2.svg);
+  background-image: url(billeder/forgrund.png);
 }
 
 .menuknapper {
@@ -26,17 +26,35 @@ body {
 }
 
 .tema02knap {
-  margin-left: 9rem;
+  margin-left: 50rem;
+  margin-top: -12rem;
 }
 
 .tema03knap {
-  margin-left: 6rem;
+  margin-left: 50rem;
+  margin-top: -6rem;
 }
 
 .tema04kknap {
-  margin-left: 3rem;
+  margin-left: 50rem;
+  margin-top: 0rem;
 }
 
 .tema05knap {
-  margin-left: 1rem;
+  margin-left: 50rem;
+  margin-top: 1rem;
+}
+
+.ommigknap {
+  margin-left: 50rem;
+  margin-top: 2rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: white;
+  margin-top: 33px;
+  font-family: "brodtekst";
+  font-size: 3rem;
 }
