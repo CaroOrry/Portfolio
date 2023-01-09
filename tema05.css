@@ -21,8 +21,11 @@ body {
 
 .temabeskrivelse4 {
   text-align: center;
+  font-family: "brodtekst";
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
 }
 
@@ -48,6 +51,14 @@ button {
   float: left;
 }
 
+.piotekst {
+  font-family: "brodtekst";
+}
+
+.storytekst {
+  font-family: "brodtekst";
+}
+
 .storyboard1 {
   width: 70%;
   margin: 10px;
@@ -60,9 +71,6 @@ button {
     grid-template-columns: 1fr 1fr;
     margin: 5%;
     gap: 20px;
-    border-style: solid;
-    border-style: dotted;
-    border-color: black;
   }
 
   .grid_1-1pt5 {
@@ -70,8 +78,5 @@ button {
     grid-template-columns: 1fr 1fr;
     margin: 5%;
     gap: 20px;
-    border-style: solid;
-    border-style: dotted;
-    border-color: black;
   }
 }

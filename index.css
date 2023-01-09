@@ -10,8 +10,13 @@
 
 @media (min-width: 600px) {
   .grid_forsidemenu {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    justify-content: space-between;
+    height: 500px;
   }
 }
 
@@ -19,40 +24,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(billeder/forgrund.png);
-}
-
-.menuknapper {
-  margin: 15%;
-}
-
-.tema02knap {
-  margin-left: 50rem;
-  margin-top: -12rem;
-}
-
-.tema03knap {
-  margin-left: 50rem;
-  margin-top: -6rem;
-}
-
-.tema04kknap {
-  margin-left: 50rem;
-  margin-top: 0rem;
-}
-
-.tema05knap {
-  margin-left: 50rem;
-  margin-top: 1rem;
-}
-
-.portfolioknap {
-  margin-left: 50rem;
-  margin-top: 4rem;
-}
-
-.ommigknap {
-  margin-left: 50rem;
-  margin-top: 2rem;
 }
 
 button {

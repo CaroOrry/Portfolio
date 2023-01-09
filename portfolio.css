@@ -12,6 +12,7 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   color: white;
+  font-family: "overskrift";
 }
 
 .portfoliotekst {
@@ -20,6 +21,14 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   color: white;
+}
+
+.portfoliobeskrivelse {
+  text-align: center;
+  font-family: "tynd";
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
 .baggrundfarve {
@@ -31,6 +40,9 @@ body {
   .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
   }
 }
 
@@ -44,11 +56,6 @@ body {
 
 .mockupbillede {
   width: 90%;
-}
-
-.emneoverskrift {
-  text-align: center;
-  font-family: "overskrift";
 }
 
 .portfoliobeskrivelse {
