@@ -1,8 +1,6 @@
 .indholdtema03 {
   background-color: white;
   padding-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 body {
@@ -31,8 +29,8 @@ body {
 .temabeskrivelse2 {
   text-align: center;
   font-family: "tynd";
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
 }
 
@@ -76,7 +74,9 @@ button {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
     gap: 20px;
     border-style: dotted;
     border-color: black;
@@ -85,7 +85,9 @@ button {
   .grid_1-1pt3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
     gap: 20px;
     border-style: dotted;
     border-color: black;

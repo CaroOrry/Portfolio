@@ -1,8 +1,6 @@
 .indholdtema04 {
   background-color: white;
   padding-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 body {
@@ -25,6 +23,8 @@ body {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
 }
 
@@ -34,6 +34,8 @@ body {
 
 .javascripttekst {
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .knapper {
@@ -56,16 +58,13 @@ button {
   margin: 10px;
 }
 
-.javascripttekst {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 @media (min-width: 600px) {
   .grid_1-1pt2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
     gap: 20px;
     border-style: solid;
     border-style: dotted;
@@ -75,7 +74,9 @@ button {
   .grid_1-1pt3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
     gap: 20px;
     border-style: solid;
     border-style: dotted;

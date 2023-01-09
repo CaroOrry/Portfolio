@@ -1,10 +1,29 @@
+.indholdtema05 {
+  background-color: white;
+  padding-bottom: 10%;
+}
+
+body {
+  background-color: black;
+}
+
+.baggrundsfarve {
+  background-color: black;
+  padding-bottom: 5%;
+}
+
 .emnesiteoverskrift4 {
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .temabeskrivelse4 {
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 button {

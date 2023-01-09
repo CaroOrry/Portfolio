@@ -1,8 +1,6 @@
 .indholdindex {
   background-color: white;
   padding-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 body {
@@ -19,8 +17,8 @@ body {
 .temabeskrivelse1 {
   text-align: center;
   font-family: "tynd";
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
 }
 
@@ -29,60 +27,26 @@ body {
   padding-bottom: 5%;
 }
 
-.designproces {
-  text-align: center;
+.emnesitebillede {
+  width: 90%;
+  float: right;
+  margin-right: 10%;
   margin-top: 5%;
 }
 
-.designbeskrivelse {
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-family: "tynd";
-}
-
-.moodboardbillede {
-  width: 100%;
-  float: right;
-  margin-top: 10%;
-}
-
-.moodboardtekst {
-  margin: 35px;
-  font-family: "brodtekst";
-}
-
-.styletilebillede {
-  width: 100%;
-  float: right;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.styletiletekst {
-  margin: 35px;
-  font-family: "brodtekst";
-}
-
-.mockupbillede {
-  width: 65%;
-  float: right;
-  margin: 35px;
-}
-
-.mockuptekst {
-  margin: 35px;
+.emnesitetekst {
+  margin-left: 10%;
   font-family: "brodtekst";
 }
 
 .layoutdiagrambillede {
-  width: 65%;
+  width: 90%;
   float: right;
-  margin: 35px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
-.layoutdiagrammertekst {
-  margin: 35px;
+.layoutdiagramtekst {
   font-family: "brodtekst";
 }
 

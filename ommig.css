@@ -33,3 +33,24 @@ body {
 .kobenhavn {
   text-align: center;
 }
+
+.ommigtekst {
+  color: white;
+  text-align: center;
+  font-family: "brodtekst";
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 4px 2px;
+  font-size: 1.5rem;
+  font-family: "brodtekst";
+  display: inline-block;
+}
+
+.cvknap {
+  margin-left: 45%;
+  margin-top: 20px;
+}
