@@ -1,16 +1,31 @@
+.indholdtema04 {
+  background-color: white;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  background-color: black;
+}
+
 .baggrundsfarve {
-  border-style: double;
-  margin: 5%;
-  color: #102fde;
+  background-color: black;
+  padding-bottom: 5%;
 }
 
 .emnesiteoverskrift3 {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .temabeskrivelse3 {
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .animationstekst {
@@ -27,7 +42,7 @@
 }
 
 button {
-  background-color: #102fde;
+  background-color: black;
   color: white;
   text-align: center;
   margin: 4px 2px;
@@ -36,34 +51,14 @@ button {
   display: inline-block;
 }
 
-.burgermenubillede {
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-
 .aktivitetsdiagrambillede {
   width: 50%;
   margin: 10px;
 }
 
-.designbillede {
-  width: 50%;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-.designtekst {
-  margin-left: 10%;
-}
-
-.designbillede2 {
-  width: 70%;
-  margin: 10px;
-}
-
-.designtekst2 {
-  margin-left: 10%;
+.javascripttekst {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media (min-width: 600px) {
@@ -73,8 +68,8 @@ button {
     margin: 5%;
     gap: 20px;
     border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
+    border-style: dotted;
+    border-color: black;
   }
 
   .grid_1-1pt3 {
@@ -83,7 +78,7 @@ button {
     margin: 5%;
     gap: 20px;
     border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
+    border-style: dotted;
+    border-color: black;
   }
 }

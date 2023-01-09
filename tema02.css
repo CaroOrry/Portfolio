@@ -1,6 +1,6 @@
 .indholdindex {
   background-color: white;
-  margin-top: 0%;
+  padding-bottom: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -11,7 +11,9 @@ body {
 
 .emnesiteoverskrift1 {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .temabeskrivelse1 {
@@ -19,13 +21,12 @@ body {
   font-family: "tynd";
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
+  color: white;
 }
 
 .baggrundsfarve {
-  border-style: double;
-  color: #102fde;
-  margin: 5%;
+  background-color: black;
+  padding-bottom: 5%;
 }
 
 .designproces {
@@ -41,9 +42,9 @@ body {
 }
 
 .moodboardbillede {
-  width: 65%;
+  width: 100%;
   float: right;
-  margin: 35px;
+  margin-top: 10%;
 }
 
 .moodboardtekst {
@@ -52,9 +53,10 @@ body {
 }
 
 .styletilebillede {
-  width: 65%;
+  width: 100%;
   float: right;
-  margin: 35px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .styletiletekst {
@@ -87,11 +89,12 @@ body {
 .knapper {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 5%;
   text-align: center;
 }
 
 button {
-  background-color: #102fde;
+  background-color: black;
   color: white;
   text-align: center;
   margin: 4px 2px;
@@ -110,9 +113,6 @@ button {
     grid-template-columns: 1fr 1fr;
     margin: 5%;
     gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
   }
 
   .grid_1-1pt2 {
@@ -122,32 +122,5 @@ button {
     margin-right: 5%;
     margin-bottom: 5%;
     gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
-  }
-
-  .grid_1-1pt3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
-  }
-
-  .grid_1-1pt4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
   }
 }

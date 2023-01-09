@@ -1,16 +1,31 @@
+.indholdtema03 {
+  background-color: white;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  background-color: black;
+}
+
 .bagrundsfarve {
-  border-style: double;
-  margin: 5%;
-  color: #102fde;
+  background-color: black;
+  padding-bottom: 5%;
 }
 
 .temabeskrivelse1 {
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .emnesiteoverskrift2 {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
 }
 
 .temabeskrivelse2 {
@@ -18,6 +33,7 @@
   font-family: "tynd";
   margin-left: 5%;
   margin-right: 5%;
+  color: white;
 }
 
 .testtekst {
@@ -29,12 +45,12 @@
 }
 
 .knapper {
-  margin: 10px;
+  margin-top: 3%;
   text-align: center;
 }
 
 button {
-  background-color: #102fde;
+  background-color: black;
   color: white;
   text-align: center;
   margin: 4px 2px;
@@ -51,16 +67,6 @@ button {
   width: 100%;
 }
 
-.fiveactbillede1 {
-  width: 75%;
-  margin: 10px;
-}
-
-.fiveactbillede2 {
-  width: 95%;
-  margin: 10px;
-}
-
 .citatbillede2 {
   margin-top: 5%;
   float: right;
@@ -72,19 +78,8 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5%;
     gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
-  }
-
-  .grid_1-1pt2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 5%;
-    gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
+    border-style: dotted;
+    border-color: black;
   }
 
   .grid_1-1pt3 {
@@ -92,8 +87,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5%;
     gap: 20px;
-    border-style: solid;
-    border-color: #102fde;
-    border-width: thin;
+    border-style: dotted;
+    border-color: black;
   }
 }
