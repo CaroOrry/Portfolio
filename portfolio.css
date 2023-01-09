@@ -1,0 +1,57 @@
+.indholdportfolio {
+  background-color: white;
+  padding-bottom: 10%;
+}
+
+body {
+  background-color: black;
+}
+
+.emneoverskrift {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.portfoliotekst {
+  text-align: center;
+  font-family: "tynd";
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+.baggrundfarve {
+  background-color: black;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 600px) {
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.moodboardbillede {
+  width: 90%;
+}
+
+.styletilebillede {
+  width: 90%;
+}
+
+.mockupbillede {
+  width: 90%;
+}
+
+.emneoverskrift {
+  text-align: center;
+  font-family: "overskrift";
+}
+
+.portfoliobeskrivelse {
+  text-align: center;
+  font-family: "brodtekst";
+}

@@ -45,6 +45,11 @@ body {
   margin-top: 1rem;
 }
 
+.portfolioknap {
+  margin-left: 50rem;
+  margin-top: 4rem;
+}
+
 .ommigknap {
   margin-left: 50rem;
   margin-top: 2rem;
@@ -56,5 +61,5 @@ button {
   color: white;
   margin-top: 33px;
   font-family: "brodtekst";
-  font-size: 3rem;
+  font-size: 1.5rem;
 }

@@ -34,12 +34,14 @@ body {
   color: white;
 }
 
-.testtekst {
+.indsigttekst {
   text-align: center;
+  font-family: "brodtekst";
 }
 
-.testogresearch {
+.prototypeogresearchtekst {
   text-align: center;
+  font-family: "brodtekst";
 }
 
 .knapper {
@@ -66,8 +68,12 @@ button {
 }
 
 .citatbillede2 {
-  margin-top: 5%;
+  margin-top: 40%;
   float: right;
+}
+
+.citatbillede1 {
+  margin-top: 40%;
 }
 
 @media (min-width: 600px) {
@@ -78,8 +84,21 @@ button {
     margin-right: 10%;
     margin-top: 5%;
     gap: 20px;
-    border-style: dotted;
-    border-color: black;
+  }
+
+  .indsigttekst {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .citatbillede1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .citatbillede2 {
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .grid_1-1pt3 {
@@ -89,7 +108,5 @@ button {
     margin-right: 10%;
     margin-top: 5%;
     gap: 20px;
-    border-style: dotted;
-    border-color: black;
   }
 }
