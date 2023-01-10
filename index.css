@@ -12,19 +12,38 @@
     width: 100%;
     height: auto;
   }
+  body {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(billeder/forgrund.png);
+  }
+}
+.grid_forsidemenu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 5%;
+  justify-content: space-between;
+  height: 100px;
+  gap: 50%;
 }
 
 body {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url(billeder/forgrund.png);
+  background-color: black;
 }
 
-button {
-  all: unset;
-  cursor: pointer;
-  color: white;
-  margin-top: 33px;
+.menuknapper a {
   font-family: "brodtekst";
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-style: normal;
+  color: white;
+}
+
+.menuknapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  text-align: center;
+  gap: 50px;
 }

@@ -34,17 +34,22 @@ body {
   background-color: black;
 }
 
-button {
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin: 4px 2px;
-  font-size: 1.5rem;
-  font-family: "brodtekst";
-  display: inline-block;
-}
-
 .cvknap {
   margin-left: 45%;
   margin-top: 20px;
+}
+
+.knap a {
+  font-family: "brodtekst";
+  font-size: 2rem;
+  font-style: normal;
+  color: white;
+}
+
+.knap {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  text-align: center;
+  gap: 50px;
 }

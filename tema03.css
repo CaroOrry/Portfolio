@@ -44,19 +44,11 @@ body {
   font-family: "brodtekst";
 }
 
-.knapper {
-  margin-top: 3%;
-  text-align: center;
-}
-
-button {
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin: 4px 2px;
-  font-size: 1.5rem;
+.knapper a {
   font-family: "brodtekst";
-  display: inline-block;
+  font-size: 2rem;
+  font-style: normal;
+  color: black;
 }
 
 .prototypebillede {
@@ -70,6 +62,7 @@ button {
 .citatbillede2 {
   margin-top: 40%;
   float: right;
+  margin-bottom: 10%;
 }
 
 .citatbillede1 {
@@ -80,7 +73,9 @@ button {
 .indsigttekst,
 .citatbillede1,
 .citatbillede2,
-.grid_1-1pt3 {
+.grid_1-1pt3,
+.knapper,
+.knapper a {
   display: grid;
   grid-template-columns: 1fr;
   margin-left: 10px;
@@ -119,5 +114,20 @@ button {
     margin-right: 10%;
     margin-top: 5%;
     gap: 20px;
+  }
+  .knapper a {
+    font-family: "brodtekst";
+    font-size: 2rem;
+    font-style: normal;
+    color: black;
+  }
+
+  .knapper {
+    display: flex;
+    margin-left: 17%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: center;
+    gap: 50px;
   }
 }
