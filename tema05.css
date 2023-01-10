@@ -65,6 +65,14 @@ button {
   float: left;
 }
 
+.grid_1-1pt4,
+.grid_1-1pt5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10%;
+  width: 110%;
+}
+
 @media (min-width: 600px) {
   .grid_1-1pt4 {
     display: grid;

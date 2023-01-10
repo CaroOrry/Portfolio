@@ -59,22 +59,38 @@ p {
 
 h1 {
   font-family: "overskrift";
-  font: size 1.5rem;
+  font-size: 1.5rem;
   color: black;
 }
 
 h2 {
   font-family: "brodtekst";
-  font: size 1.5rem;
+  font-size: 1.5rem;
   color: black;
 }
 
 h3 {
   font-family: "brodtekst";
-  font: size 1.5rem;
+  font-size: 1.5rem;
   color: black;
 }
 
 li {
   float: right;
+}
+
+.footerstyle {
+  background-color: lightgrey;
+  padding: 3%;
+  margin-top: 15px;
+}
+
+.linkedinbillede {
+  width: 10%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.footertekst {
+  font-family: "brodtekst";
 }
