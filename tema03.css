@@ -76,6 +76,17 @@ button {
   margin-top: 40%;
 }
 
+.grid_1-1,
+.indsigttekst,
+.citatbillede1,
+.citatbillede2,
+.grid_1-1pt3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media (min-width: 600px) {
   .grid_1-1 {
     display: grid;

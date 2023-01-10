@@ -69,7 +69,6 @@ button {
 .grid_1-1pt5 {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 10%;
   width: 110%;
 }
 

@@ -67,6 +67,14 @@ button {
   display: inline-block;
 }
 
+.grid_1-1,
+.grid_1-1pt2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media (min-width: 600px) {
   .img {
     gap: 20px;
